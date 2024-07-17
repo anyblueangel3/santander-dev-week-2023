@@ -11,10 +11,10 @@ classDiagram
     }
 
     class Account {
-        +String accountNumber
-        +String accountAgency
-        +double accountBalance
-        +double accountLimit
+        +String number
+        +String agency
+        +double balance
+        +double limit
     }
 
     class Feature {
