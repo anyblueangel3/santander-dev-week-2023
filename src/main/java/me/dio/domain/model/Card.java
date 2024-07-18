@@ -14,8 +14,8 @@ public class Card {
     @Column(unique = true)
     private String number;
 
-    @Column(name = "available_limit", scale = 13, precision = 2)
-    private BigDecimal limit;
+    @Column(name = "available_limit", precision = 13, scale = 2)
+    private BigDecimal card_limit;
 
     public Long getId() {
         return id;
@@ -33,12 +33,12 @@ public class Card {
         this.number = number;
     }
 
-    public BigDecimal getLimit() {
-        return limit;
+    public BigDecimal getCard_limit() {
+        return card_limit;
     }
 
-    public void setLimit(BigDecimal limit) {
-        this.limit = limit;
+    public void setCard_limit(BigDecimal limit) {
+        this.card_limit = card_limit;
     }
 
 }
