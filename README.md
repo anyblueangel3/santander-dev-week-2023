@@ -4,7 +4,7 @@
 classDiagram
     class User {
         +String name
-        +Account acount
+        +Account account
         +Feature[] features
         +Card card
         +News[] news
